@@ -1,0 +1,6 @@
+{
+  "name": "Stride 5K",
+  "description": "Beginner 0 to 5k jogging plan coach with personalized weekly schedules, progress tracking, and interactive audio guidance.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
