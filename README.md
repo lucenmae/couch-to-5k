@@ -47,15 +47,21 @@ An interactive, context-aware Voice Coach provides automated coaching, interval 
 
 ## 🚀 How to Run the Project
 
-1.  **Open in Google AI Studio**:
-    *   View your app using the built-in streaming emulator in the browser.
-2.  **To Run locally via Gradle**:
+1.  **Direct APK Installation**:
+    *   A pre-compiled, real installable debug APK is fully built and ready for download!
+    *   **Location**: `APK_DOWNLOAD/app-debug.apk` (also mirrored at `.build-outputs/app-debug.apk`).
+    *   Simply transfer `app-debug.apk` to your Android device, enable "Install from Unknown Sources", and launch **Stride 5K** immediately on your phone!
+
+2.  **Open in Google AI Studio**:
+    *   View and interact with your app using the built-in streaming emulator in the browser.
+
+3.  **To Build & Run locally via Gradle**:
     *   Ensure Android SDK 34+ is installed.
-    *   Build the debug application target:
+    *   Build the debug application target manually:
         ```bash
         gradle assembleDebug
         ```
-    *   Run local JVM tests to verify applet integrity:
+    *   Run local JVM tests to verify application integrity:
         ```bash
         gradle :app:testDebugUnitTest
         ```
